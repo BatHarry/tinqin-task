@@ -26,7 +26,7 @@ export default function signMessage(req, res) {
         <b>Signature (Uint8Array)*:</b><br/> ${byteArray.join(" ")}<br/>
         <b>Signature (binary):</b><br/> ${signature.toString("binary")}<br/>
         <b>Public key:</b><br/> <pre>${publicKey}</pre>
-        <i>*Signature in DER encoding converted for readability</i>
+        <i>*Signature in DER encoding, converted for readability</i>
     </p>
     `
 
